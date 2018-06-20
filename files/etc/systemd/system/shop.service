@@ -2,7 +2,7 @@
 Description=Shop service
 
 [Service]
-ExecStart=/usr/bin/shop
+ExecStart=/usr/bin/shop -conf=/etc/shop/production.json
 User=root
 Group=root
 Restart=always

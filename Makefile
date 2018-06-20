@@ -3,4 +3,4 @@
 all:
 	rm -rf vendor
 	dep ensure -v
-	GOOS=linux go build -o shop github.com/rancaka/shop/src
+	GOOS=linux go build -o shop github.com/rancaka/shop
