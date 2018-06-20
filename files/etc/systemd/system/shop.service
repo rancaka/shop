@@ -1,0 +1,11 @@
+[Unit]
+Description=Shop service
+
+[Service]
+ExecStart=/usr/bin/shop
+User=root
+Group=root
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
